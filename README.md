@@ -40,11 +40,6 @@ Setelah data diproses, saya membuat model **Naive Bayes** dengan menggunakan **G
 ### 8. **Cross-Validation**
 Untuk mengevaluasi model secara lebih menyeluruh dan mengurangi overfitting, saya melakukan **cross-validation** dengan menggunakan 5 fold. Proses ini membagi dataset menjadi lima bagian, di mana setiap bagian digunakan secara bergantian untuk pengujian, sementara bagian lainnya digunakan untuk pelatihan.
 
-Hasil dari **cross-validation** menunjukkan akurasi yang bervariasi untuk setiap fold:
-- **Cross-Validation Accuracy**: [0.6335, 0.985, 0.9975, 0.987, 0.6175]
-  
-Akurasi rata-rata dari **cross-validation** adalah **84.41%**, yang menunjukkan bahwa model memiliki performa yang cukup baik meskipun ada variasi antara setiap fold.
-
 ### 9. **Prediksi dan Evaluasi**
 Setelah model dilatih, saya menggunakan model untuk memprediksi kelas pada data uji. Saya kemudian mengevaluasi kinerja model menggunakan:
 - **Confusion Matrix** untuk melihat perbandingan antara prediksi dan label asli.
@@ -52,9 +47,6 @@ Setelah model dilatih, saya menggunakan model untuk memprediksi kelas pada data 
 
 ### 10. **Visualisasi Confusion Matrix**
 Confusion Matrix divisualisasikan untuk mempermudah pemahaman tentang seberapa baik model dalam mengklasifikasikan kedua buah (Jeruk dan Grapefruit). Visualisasi ini membantu untuk melihat apakah model sering salah memprediksi satu kelas sebagai kelas lainnya.
-
-## Hasil dan Pembahasan
-Model Naive Bayes menunjukkan **akurasi yang baik** dalam membedakan antara Jeruk dan Grapefruit. Hasil **cross-validation** memberikan akurasi rata-rata **84.41%**, dengan beberapa fold menunjukkan akurasi yang sangat baik (mendekati 100%) dan beberapa fold menunjukkan akurasi yang lebih rendah. Meskipun ada sedikit variasi antara fold, model ini dapat diterapkan secara konsisten pada dataset ini. Visualisasi **Confusion Matrix** juga menunjukkan bahwa model sangat baik dalam memprediksi kedua kelas dengan sedikit kesalahan.
 
 ## Persyaratan
 Untuk menjalankan proyek ini, pastikan Anda memiliki lingkungan Python dengan versi 3.x dan beberapa library berikut:
