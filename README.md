@@ -1,5 +1,8 @@
 # 🍊🍇 Klasifikasi Jeruk vs Anggur menggunakan Naive Bayes
 
+Nama: Irma Rohmatillah
+NIM: 1227050060
+
 ## Deskripsi
 Proyek ini bertujuan untuk membangun model klasifikasi buah antara jeruk (orange) dan anggur (grapefruit) menggunakan algoritma **Naive Bayes**. Dataset diambil dari [Kaggle - Oranges vs Grapefruit](https://www.kaggle.com/datasets/joshmcadams/oranges-vs-grapefruit).
 
